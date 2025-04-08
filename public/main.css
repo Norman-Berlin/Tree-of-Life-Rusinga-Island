@@ -352,6 +352,9 @@ body {
         margin: 0;
         width: 100%;
     }
+    .hero h1{
+        padding-top: 40px;
+    }
 }
 
 .vision {
