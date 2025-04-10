@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="download.jpeg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate to Tree of Life Children's Home - Rusinga Island</title>
+    <link rel="stylesheet" href="donate.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Tree of <span>Life</span></div>
+            <div class="tagline">Providing love and care to children in Rusinga Island</div>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <h1>Change a Child's Life Today</h1>
+            <p>Your donation helps provide food, education, healthcare, and a loving home for vulnerable children in Rusinga Island. Every contribution makes a difference.</p>
+            <a href="#donate" class="btn">Donate Now</a>
+        </div>
+    </section>
+    
+    <div class="container content">
+        <main class="main-content">
+            <section class="card" id="about">
+                <h2>About Tree of Life Children's Home</h2>
+                <p>Tree of Life Children's Home was established in 2021 to provide shelter, care, and education to orphaned and vulnerable children in Rusinga Island. We believe every child deserves a safe, nurturing environment where they can grow and thrive.</p>
+                <p>Currently, we care for 50 children ranging from infants to teenagers. Our mission is to provide not just basic needs but also emotional support, education, and life skills to help these children become independent, responsible adults.</p>
+                
+                <div class="impact-stats">
+                    <div class="stat">
+                        <div class="stat-number">50</div>
+                        <div class="stat-label">Children Cared For</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">8</div>
+                        <div class="stat-label">Staff Members</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">4</div>
+                        <div class="stat-label">Years of Service</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">50</div>
+                        <div class="stat-label">Children in School</div>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="card gallery-section">
+                <h2>Our Children</h2>
+                <div class="gallery">
+                    <img src="freetime.jpg" alt="Children playing">
+                    <img src="class2.jpg" alt="Children learning">
+                    <img src="meals.jpg" alt="Children eating">
+                    <img src="brain storming.jpg" alt="Children smiling">
+                </div>
+            </section>
+        </main>
+        
+        <aside class="sidebar">
+            <section class="card" id="donate">
+                <h2>Make a Donation</h2>
+                <form class="donation-form" id="donationForm">
+                    <div>
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div>
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div>
+                        <label>Donation Amount (Ksh.)</label>
+                        <div class="donation-options">
+                            <div class="donation-option">
+                                <input type="radio" id="amount1000" name="amount" value="10" checked>
+                                <label for="amount1000">Ksh. 1,000</label>
+                            </div>
+                            <div class="donation-option">
+                                <input type="radio" id="amount2500" name="amount" value="25">
+                                <label for="amount2500">Ksh. 2,500</label>
+                            </div>
+                            <div class="donation-option">
+                                <input type="radio" id="amount5000" name="amount" value="50">
+                                <label for="amount5000">Ksh. 5,000</label>
+                            </div>
+                            <div class="donation-option">
+                                <input type="radio" id="amount10000" name="amount" value="100">
+                                <label for="amount10000">Ksh. 10,000</label>
+                            </div>
+                            <div class="donation-option">
+                                <input type="radio" id="amountOther" name="amount" value="other">
+                                <label for="amountOther">Other</label>
+                            </div>
+                        </div>
+                        <input type="number" id="customAmount" name="customAmount" placeholder="Enter custom Ksh. amount" style="display: none;">
+                    </div>
+                    
+                    <div>
+                        <label for="frequency">Donation Frequency</label>
+                        <select id="frequency" name="frequency">
+                            <option value="one-time">One-time donation</option>
+                            <option value="monthly">Monthly donation</option>
+                            <option value="quarterly">Quarterly donation</option>
+                            <option value="yearly">Yearly donation</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label for="message">Message (Optional)</label>
+                        <textarea id="message" name="message" rows="3"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn">Donate Now</button>
+                </form>
+            </section>
+            
+            <section class="card">
+                <h2>Other Ways to Help</h2>
+                <ul style="list-style-type: none;">
+                    <li style="margin-bottom: 0.8rem;">• Sponsor a child's education</li>
+                    <li style="margin-bottom: 0.8rem;">• Donate food and supplies</li>
+                    <li style="margin-bottom: 0.8rem;">• Volunteer your time and skills</li>
+                    <li style="margin-bottom: 0.8rem;">• Fundraise for our cause</li>
+                    <li>• Share our mission with others</li>
+                </ul>
+            </section>
+        </aside>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <div class="contact-info">
+                <h3>Tree of Life Children's Home</h3>
+                <p>Rusinga Island, Kenya</p>
+                <p>Email: info@treeoflife-rusinga.org</p>
+                <p>Phone: +254 723 461935</p>
+            </div>
+          
+            <p>&copy; 2025 Tree of Life Children's Home. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="donate.js"></script>
+</body>
+</html>
